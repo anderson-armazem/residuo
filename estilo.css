@@ -36,7 +36,7 @@ table{
     margin-left: 10px;
 }
 th{
-    width: 120px;
+    width: 150px;
     /*background-color: blueviolet;*/
     text-align: left;
     outline: none;
@@ -45,14 +45,14 @@ tr{
     height: 25px;
 }
 input{
-    width: 120px;
+    width: 150px;
     outline: none;
     border-radius: 10px;
     border: solid 0.3px;
     border-color: rgb(218, 218, 218);
 }
 select{
-    width: 120px;
+    width: 150px;
     outline: none;
     border-radius: 10px;
     border: solid 0.3px;
