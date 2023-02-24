@@ -1,8 +1,9 @@
 *{margin: 0px; padding: 0px;}
 body{
     background-color: rgb(240, 240, 240);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
     font-size: 9pt;
+    color: #444b50;
 }
 section{
     display: block;
@@ -12,8 +13,10 @@ section{
     margin-right: auto;
     margin-top: 30px;
     width: 90%;
-    height: 300px;
-    border-radius: 10px;
+    height: 320px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 30px;
+    border-end-start-radius: 30px;
 }
 div.conteudo{
     position: relative;
@@ -56,6 +59,7 @@ input{
     border-radius: 3px;
     border: solid 0.3px;
     border-color: rgb(218, 218, 218);
+    padding-left: 10px;
 }
 select{
     width: 80%px;
@@ -66,6 +70,7 @@ select{
     height: 20px;
 }
 input[type="submit"]{
+    color: #444b50;
     height: 25px;
     margin-top: 20px;
     cursor: pointer;
@@ -75,4 +80,13 @@ p{
     margin-left: 25px;
     font-size: 12pt;
     font-weight: bolder;
+}
+hr{
+    width: 88%;
+    border: 0px;
+    height: 1px;
+    background-color: #adadad;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
 }
