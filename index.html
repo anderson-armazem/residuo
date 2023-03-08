@@ -5,58 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="estilo.css">
-    <title>ContRes</title>
+    <title>Controle de Dosagem</title>
 </head>
 <body>
-    <section>
+   <div class="corpo">
+        <h1>SCHEFFER - CONTROLE DE RESÍDUO</h1>
         <div class="conteudo">
-            <img src="logosf.png"><br>
-        </div>
-        <p>Lançamento de Dosagem de Resíduo</p>
-        <hr>
-        <div class="tabela">
-            <form method="post" action="https://api.sheetmonkey.io/form/rYbpGTTUpToVVrgu2FJBEb">
+            <form action="https://api.sheetmonkey.io/form/rYbpGTTUpToVVrgu2FJBEb" method="POST">
                 <table>
                     <tr>
                         <th>Data:</th>
-                        <th>Qtd. Carretas:</th>
                     </tr>
                     <tr>
                         <td><input type="date" name="Data"></td>
-                        <td>
-                            <input type="number" name="Qtd. Carretas">
-                        </td>
                     </tr>
+
+                    <tr>
+                        <th>Qtd. Carretas:</th>
+                    </tr>
+                    <tr>
+                        <td><input type="number" name="Q. Carretas"></td>
+                    </tr>
+
                     <tr>
                         <th>Qtd. Bags:</th>
-                        <th>Peso médio:</th>
                     </tr>
                     <tr>
-                        <td>
-                        <input type="number" name="Qtd. Bags">
-                        </td>
-                        <td>
-                            <input type="number" name="Peso Médio" placeholder="Peso em kg">
-                        </td>
+                        <td><input type="number" name="Q. Bags"></td>
                     </tr>
+
+                    <tr>
+                        <th>Peso Médio:</th>
+                    </tr>
+                    <tr>
+                        <td><input type="number" name="Peso M."></td>
+                    </tr>
+
                     <tr>
                         <th>Apontador:</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <select name="Apontador">
+                                <Option>Téo Vitor dos Santos Trindade</Option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
                         <th>Função:</th>
                     </tr>
                     <tr>
                         <td>
-                        <input type="text" name="Apontador">
-                        </td>
-                        <td>
-                            <input type="text" name="Função">
+                            <select name="Função">
+                                <Option>Operdor de UBG II</Option>
+                            </select>
                         </td>
                     </tr>
-                    <td>
-                        <input type="submit" value="Enviar">
-                    </td>
+                    <tr>
+                        <td><input type="submit"></td>
+                    </tr>
                 </table>
             </form>
         </div>
-    </section>
+        <input type="button" value="Relatório">
+        <div class="rodape"></div>
+   </div> 
 </body>
 </html>
