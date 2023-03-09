@@ -1,25 +1,26 @@
 body{
-    background-color: rgb(240, 240, 240);
+    margin: 0px;
+    background-color: #63340d;;
     display: flex;
     justify-content: center;
     font-family: sans-serif;
     color: #63340d;
 }
 .corpo{
-    width: 60%;
+    width: 70%;
     height: auto;
-    margin-top: 15%;
+    margin-top: 0%;
     background-color: rgb(255, 255, 255);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    -webkit-box-shadow: 0px -10px 0px 0px #63340d;
-    border: solid 0.5px #63340d ;;
+    -webkit-box-shadow: 0px 10px 0px 0px #63340d;
+    border: solid 0px #63340d ;;
 }
 h1{
     font-family: sans-serif;
@@ -53,57 +54,66 @@ form{
     align-items: center;
 }
 table{
-    width: 80%;
+    width: 90%;
     height: 100%;
     /*background-color: #9c1010;*/
     border-radius: 5px;
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;  
 }
 tr{
     display: flex;
-    justify-content: left;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
 }
 td{
     height: 30px;
 }
 input{
     color: #63340d ;
-    width: 165px;
+    width: 200px;
     outline: none;
     border-bottom: solid 0.5px #63340d;
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
+    text-align: center;
 }
 input[type="submit"]{
-    width: 173px;
+    margin-top: 20px;
+    width: 100px;
     height: 25px;
-    border-radius: 20px;
+    border-radius: 10px;
     cursor: pointer;
     color: #FFF;
     background-color: #723900;
+    margin-left: 10px;
 }
 input[type="button"]{
-    width: 173px;
+    margin-top: 20px;
+    width: 100px;
     height: 25px;
     border-radius: 10px;
     color: #FFF;
     cursor: pointer;
     background-color: #723900;
+    margin-left: 10px;
 }
 .rodape{
     height: 20px;
 }
 select{
-    width: 173px;
+    width: 203px;
+    height: 25px;
     border-bottom: solid 0.5px #63340d;
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
     color: #63340d ;
+    background-color: #fff387;
 
 }
 iframe{
